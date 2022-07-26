@@ -12,6 +12,8 @@ In this repo you will find :
 
 ## First download the script in your bin directory :
 
+> if you use codeblock in your article you will maybe prefer to use lowdown
+
 ```sh
 $ mkdir -p bin
 $ curl -s https://rgz.ee/bin/ssg > bin/ssg
