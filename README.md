@@ -20,6 +20,7 @@ $ chmod +x bin/ssg bin/Markdown.pl
 ``` 
 
 #### I prefer put additional script in my own bin for portability
+
 ```sh
 $ mkdir -p bin
 $ curl -s https://rgz.ee/bin/ssg > bin/ssg
@@ -32,6 +33,7 @@ or
 ```sh
 $ sudo apt install lowdown # or any package manager
 ```
+
 if the package isn't found
 download : [kristaps.bsd.lv/lowdown/snapshots/lowdown.tar.gz](https://kristaps.bsd.lv/lowdown/snapshots/lowdown.tar.gz)
 ```sh
@@ -48,8 +50,11 @@ $ vim .bashrc
 ```
 if you don't know how to use vim :
 > go a the end of the file `]]`
+
 > paste `:p` the command `export PATH=$PATH:~/bin`
+
 > exit insertion mode <kbd>ESC</kbd>
+
 > exit vim by typing `:wq!`
 
 **restart** your shell
